@@ -98,7 +98,7 @@ class Projects extends Component {
               Embedded Software Project in C
            </CardText>
            <CardActions border>
-             <a href="https://github.com/devinpatell/CS-145/tree/master/project2" rel="noopener noreferrer" target="_blank">
+             <a href="https://github.com/devinpatell/CS-145/tree/master/project3" rel="noopener noreferrer" target="_blank">
                <Button colored>Github</Button>
              </a>
            </CardActions>
@@ -134,14 +134,14 @@ class Projects extends Component {
  }
  render() {
    return(
-     <div>
+     <div className="projects-page">
        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-         <Tab>React</Tab>
-         <Tab>Python</Tab>
-         <Tab>C/C++</Tab>
-         <Tab>SystemVerilog</Tab>
+         <Tab style={{background: 'white', 'border-color': 'black', 'border-width': '2px'}}>React</Tab>
+         <Tab style={{background: 'white', 'border-color': 'black', 'border-width': '2px'}}>Python</Tab>
+         <Tab style={{background: 'white', 'border-color': 'black', 'border-width': '2px'}}>C/C++</Tab>
+         <Tab style={{background: 'white', 'border-color': 'black', 'border-width': '2px'}}>SystemVerilog</Tab>
        </Tabs>
-         <Grid>
+         <Grid className="projects-outer-grid">
            <Cell col={12}>
              <div className="content">{this.toggleCategories()}</div>
            </Cell>

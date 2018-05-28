@@ -11,16 +11,16 @@ class App extends Component {
     <Layout>
         <Header className='header-color' title={<Link className="header-link" to="/">Devin Patel</Link>} scroll>
             <Navigation>
+                <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title="Menu">
             <Navigation>
+              <Link to="/">Home</Link>
               <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>

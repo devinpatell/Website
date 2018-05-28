@@ -12,7 +12,7 @@ class Landing extends Component {
                 className="avatar-img"
               />
               <div className="banner-text">
-                <h1>Computer Science Engineering Student</h1>
+                <h1>Computer Science & Engineering Student</h1>
                 <h2>University of California, Irvine</h2>
                 <hr/>
                 <p>React | Bootstrap | NodeJS | C/C++ | Java | Python | SystemVerilog | Assembly | R</p>
@@ -24,7 +24,7 @@ class Landing extends Component {
 
                     {/* Github */}
                     <a href="https://github.com/devinpatell"  rel="noopener noreferrer" target="_blank">
-                      <i className="fa fw-github-square" aria-hidden="true" />
+                      <i className="fa fa-github-square" aria-hidden="true" />
                     </a>
 
                     {/* Facebook */}
