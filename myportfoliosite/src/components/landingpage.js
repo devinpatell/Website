@@ -15,7 +15,7 @@ class Landing extends Component {
                 <h1>Computer Science Engineering Student</h1>
                 <h2>University of California, Irvine</h2>
                 <hr/>
-                <p>React | Bootstrap | NodeJS | C++ | Java | Python | SystemVerilog | Assembly | R</p>
+                <p>React | Bootstrap | NodeJS | C/C++ | Java | Python | SystemVerilog | Assembly | R</p>
                 <div className="social-links">
                     {/* linkedin */}
                     <a href="https://www.linkedin.com/in/devin-patel/"  rel="noopener noreferrer" target="_blank">
@@ -24,7 +24,7 @@ class Landing extends Component {
 
                     {/* Github */}
                     <a href="https://github.com/devinpatell"  rel="noopener noreferrer" target="_blank">
-                      <i className="fa fa-github-square" aria-hidden="true" />
+                      <i className="fa fw-github-square" aria-hidden="true" />
                     </a>
 
                     {/* Facebook */}
