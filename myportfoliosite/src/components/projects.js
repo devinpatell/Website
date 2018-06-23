@@ -14,7 +14,7 @@ class Projects extends Component {
          {/* Project 1 */}
          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
            <CardTitle className="project1" style={{ color: '#000', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png) center / cover'}}>
-             Devin-Patel.com (This Website)
+             This Website
            </CardTitle>
            <CardText>
               This website was made with React and React-MDL
