@@ -12,8 +12,9 @@ class Landing extends Component {
                 className="avatar-img"
               />
               <div className="banner-text">
-                <h1>Computer Science & Engineering Student</h1>
-                <h2>University of California, Irvine</h2>
+                <h1>Full Stack Software Enginnering Intern</h1>
+                <h2>Computer Science and Engineering</h2>
+                <h3>University of California, Irvine</h3>
                 <hr/>
                 <p>React | Bootstrap | NodeJS | C/C++ | Java | Python | SystemVerilog | Assembly | R</p>
                 <div className="social-links">

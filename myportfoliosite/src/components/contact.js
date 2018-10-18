@@ -14,7 +14,7 @@ class Contact extends Component {
               style={{height: '250px'}}
                />
              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
-               3rd year Computer Sceince and Engineering Student at the University of California, Irvine
+               Looking for Full Time Employment in a Software or Hardware company
              </p>
           </Cell>
           <Cell col={6}>
