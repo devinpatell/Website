@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
 
 class Projects extends Component {
   constructor(props){
@@ -24,9 +24,6 @@ class Projects extends Component {
                <Button colored>Github</Button>
              </a>
            </CardActions>
-           <CardMenu style={{color:'#fff'}}>
-             <IconButton name="share" />
-           </CardMenu>
          </Card>
          {/* Project 2 */}
          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -41,9 +38,6 @@ class Projects extends Component {
                <Button colored>Github</Button>
              </a>
            </CardActions>
-           <CardMenu style={{color:'#fff'}}>
-             <IconButton name="share" />
-           </CardMenu>
          </Card>
        </div>
      )
@@ -63,70 +57,52 @@ class Projects extends Component {
                <Button colored>Github</Button>
              </a>
            </CardActions>
-           <CardMenu style={{color:'#fff'}}>
-             <IconButton name="share" />
-           </CardMenu>
+         </Card>
+         {/* Project 4 */}
+         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+             <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://imgur.com/vAS3UBp.jpg) center / cover'}}>
+             Gesture Controlled Drone
+           </CardTitle>
+           <CardText>
+              Identify and track facial and pupil movements (using openCV python) to steer and maneuver a drone
+           </CardText>
          </Card>
        </div>
      )
    } else if(this.state.activeTab === 2) {
      return (
        <div className="projects-grid">
-         {/* Project 4 */}
+         {/* Project 5 */}
          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
            <CardTitle  style={{ color: '#000', height: '176px', background: 'url(https://i.imgur.com/goOGh6g.jpg) center / cover'}}>
              Date and Time Clock
            </CardTitle>
            <CardText>
-              Embedded Software Project in C
+              Embedded Software Project in C, code available upon request.
            </CardText>
-           <CardActions border>
-             <a href="https://github.com/devinpatell/CS-145/tree/master/project2" rel="noopener noreferrer" target="_blank">
-               <Button colored>Github</Button>
-             </a>
-           </CardActions>
-           <CardMenu style={{color:'#fff'}}>
-             <IconButton name="share" />
-           </CardMenu>
          </Card>
-         {/* Project 4 */}
+         {/* Project 6 */}
          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
            <CardTitle  style={{ color: '#000', height: '176px', background: 'url(https://i.imgur.com/goOGh6g.jpg) center / cover'}}>
              Music Note Player
            </CardTitle>
            <CardText>
-              Embedded Software Project in C
+              Embedded Software Project in C, code available upon request.
            </CardText>
-           <CardActions border>
-             <a href="https://github.com/devinpatell/CS-145/tree/master/project3" rel="noopener noreferrer" target="_blank">
-               <Button colored>Github</Button>
-             </a>
-           </CardActions>
-           <CardMenu style={{color:'#fff'}}>
-             <IconButton name="share" />
-           </CardMenu>
          </Card>
        </div>
      )
    } else if(this.state.activeTab === 3) {
      return (
        <div className="projects-grid">
-         {/* Project 4 */}
+         {/* Project 7 */}
          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
            <CardTitle  style={{ color: '#000', height: '176px', background: 'url(https://www.cise.ufl.edu/~mssz/CompOrg/Figure4.13-MIPSdatapath-Rlodbeq-sig.gif) center / cover'}}>
              Single Cycle RISC V Processor
            </CardTitle>
            <CardText>
-              Follows Full RISC-V Instruction Set
+              Follows Full RISC-V Instruction Set, code available upon request.
            </CardText>
-           <CardActions border>
-             <a href="https://github.com/devinpatell/Single-Cycle-RISC-V-Processor" rel="noopener noreferrer" target="_blank">
-               <Button colored>Github</Button>
-             </a>
-           </CardActions>
-           <CardMenu style={{color:'#fff'}}>
-             <IconButton name="share" />
-           </CardMenu>
          </Card>
        </div>
      )
@@ -136,10 +112,10 @@ class Projects extends Component {
    return(
      <div className="projects-page">
        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-         <Tab style={{background: 'white', 'border-color': 'black', 'border-width': '2px'}}>React</Tab>
-         <Tab style={{background: 'white', 'border-color': 'black', 'border-width': '2px'}}>Python</Tab>
-         <Tab style={{background: 'white', 'border-color': 'black', 'border-width': '2px'}}>C/C++</Tab>
-         <Tab style={{background: 'white', 'border-color': 'black', 'border-width': '2px'}}>SystemVerilog</Tab>
+         <Tab className="tab" style={{color: 'white', fontSize: '15px', 'font-weight': 'bold'}}>React</Tab>
+         <Tab className="tab" style={{color: 'white', fontSize: '15px', 'font-weight': 'bold'}}>Python</Tab>
+         <Tab className="tab" style={{color: 'white', fontSize: '15px', 'font-weight': 'bold'}}>C/C++</Tab>
+         <Tab className="tab" style={{color: 'white', fontSize: '15px', 'font-weight': 'bold'}}>System Verilog</Tab>
        </Tabs>
          <Grid className="projects-outer-grid">
            <Cell col={12}>

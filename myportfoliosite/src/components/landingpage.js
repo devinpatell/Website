@@ -12,11 +12,11 @@ class Landing extends Component {
                 className="avatar-img"
               />
               <div className="banner-text">
-                <h1>Full Stack Software Enginnering Intern</h1>
+                <h1>Full Stack Software Engineering Intern</h1>
                 <h2>Computer Science and Engineering</h2>
                 <h3>University of California, Irvine</h3>
                 <hr/>
-                <p>React | Bootstrap | NodeJS | C/C++ | Java | Python | SystemVerilog | Assembly | R</p>
+                <p>React | Machine Learning | C/C++ | SQL | Java | Python | SystemVerilog | Assembly</p>
                 <div className="social-links">
                     {/* linkedin */}
                     <a href="https://www.linkedin.com/in/devin-patel/"  rel="noopener noreferrer" target="_blank">

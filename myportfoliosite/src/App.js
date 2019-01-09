@@ -9,20 +9,20 @@ class App extends Component {
     return (
       <div className="demo-big-content">
     <Layout>
-        <Header className='header-color' title={<Link className="header-link" to="/">Devin Patel</Link>} scroll>
+        <Header className='header-color' title={<Link className="header-link" to="/">Devin Patel</Link>} waterfall hideTop>
             <Navigation>
-                <Link to="/">Home</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link style={{fontSize: '15px', 'font-weight': 'bold'}} to="/">Home</Link>
+                <Link style={{fontSize: '15px', 'font-weight': 'bold'}} to="/resume">Resume</Link>
+                <Link style={{fontSize: '15px', 'font-weight': 'bold'}} to="/projects">Projects</Link>
+                <Link style={{fontSize: '15px', 'font-weight': 'bold'}} to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title="Devin Patel">
             <Navigation>
-              <Link to="/">Home</Link>
-              <Link to="/resume">Resume</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link style={{fontSize: '15px', 'font-weight': 'bold'}} to="/">Home</Link>
+              <Link style={{fontSize: '15px', 'font-weight': 'bold'}} to="/resume">Resume</Link>
+              <Link style={{fontSize: '15px', 'font-weight': 'bold'}} to="/projects">Projects</Link>
+              <Link style={{fontSize: '15px', 'font-weight': 'bold'}} to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
         <Content>

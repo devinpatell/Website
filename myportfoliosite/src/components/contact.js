@@ -14,7 +14,7 @@ class Contact extends Component {
               style={{height: '250px'}}
                />
              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
-               Looking for Full Time Employment in a Software or Hardware company
+               Phone number available on request.
              </p>
           </Cell>
           <Cell col={6}>
@@ -23,19 +23,13 @@ class Contact extends Component {
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-fax" aria-hidden="true"/>
-                    (714)-471-6040
-                  </ListItemContent>
-                </ListItem>
-                <ListItem>
-                  <ListItemContent style={{fontSize: '29px', fontFamily: 'Anton'}}>
+                  <ListItemContent style={{color: 'white', fontSize: '29px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
                     devin.sa.patel@gmail.com
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                  <ListItemContent style={{color: 'white', fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
                     devinsp@uci.edu
                   </ListItemContent>
